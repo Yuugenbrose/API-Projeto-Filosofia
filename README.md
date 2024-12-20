@@ -44,8 +44,29 @@ Autenticação
     POST /api/auth/register
         Cadastro de um novo usuário.
         Corpo JSON:
-           {
+        
+                                   {
        "username": "filosofo1",
        "password": "senhaSegura123",
        "isAdmin": false
-         }
+        }
+
+    POST /api/auth/login
+        Login de um usuário.
+        Corpo JSON:
+        
+                                   {
+       "username": "filosofo1",
+       "password": "senhaSegura123"
+           }
+
+Usuários
+
+    POST /api/users/admin
+        Criação de um novo administrador. (Requer token de administrador)
+        Corpo JSON:
+
+                                    {
+          "username": "admin2",
+          "password": "senhaSegura123"
+           }
