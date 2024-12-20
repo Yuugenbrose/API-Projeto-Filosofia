@@ -24,3 +24,23 @@ Esta API permite o cadastro e gerenciamento de resumos de pensamentos filosófic
    ```bash
    git clone https://github.com/seu-usuario/api-filosofia-esoterica.git
    cd api-filosofia-esoterica
+
+2. Instale as dependências:
+   ```bash
+   npm install
+
+3. Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis:
+   ```bash
+   JWT_SECRET=secrettoken
+   ADMIN_PASSWORD=admin123
+
+4. Inicie o servidor:
+   ```bash
+   npm start
+
+### Endpoints
+Autenticação
+
+    POST /api/auth/register
+        Cadastro de um novo usuário.
+        Corpo JSON:
