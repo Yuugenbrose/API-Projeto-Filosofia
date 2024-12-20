@@ -109,7 +109,7 @@ Resumos
     DELETE /api/resumos/:id
        Exclusão de um resumo. (Requer token)
 
-##Instalação e Documentação
+## Instalação e Documentação
 
     GET /install
         Criação de um usuário administrador padrão.
@@ -117,5 +117,5 @@ Resumos
     GET /docs
         Documentação da API gerada pelo Swagger.
 
-##Tratamento de Erros
+## Tratamento de Erros
 A API utiliza middlewares para tratamento de erros e respostas padronizadas.
